@@ -1,0 +1,30 @@
+{
+  "name": "ejemploapinode",
+  "version": "1.0.0",
+  "description": "Ejemplo de api rest con node + express + MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=development && nodemon src/index.js",
+    "start": "node src/index.js",
+    "db:init": "SET NODE_ENV=development && node src/db-init.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Emerson Cartagena",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "mysql2": "^3.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

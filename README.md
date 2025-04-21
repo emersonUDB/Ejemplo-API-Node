@@ -14,7 +14,7 @@ Para ejecutar este proyecto en tu máquina local, necesitarás tener instalado l
 1. **Clonar el repositorio:**
 
 ```bash
-git clone https://github.com/emerson-cartagena/SampleRestfullAPI
+git clone https://github.com/emersonUDB/Ejemplo-API-Node
 ```
 
 

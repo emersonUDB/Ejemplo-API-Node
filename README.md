@@ -22,7 +22,7 @@ git clone https://github.com/emersonUDB/Ejemplo-API-Node
 1. **Instalar las dependencias:**
 
 ```bash
-cd SampleRestfullAPI
+cd Ejemplo-API-Node
 npm install
 ```
 
